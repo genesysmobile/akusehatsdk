@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 class HealthMonitorService {
   static const MethodChannel _methodChannel = MethodChannel('health_monitor');
 
-  Future<void> start(int duration) async {
+  Future<void> startMeasurement(int duration) async {
     // try {
     //   var resultLicense = await AccessApi().getDataKuota();
     //   if (resultLicense['result']) {
