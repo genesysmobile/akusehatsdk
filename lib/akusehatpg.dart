@@ -1,10 +1,7 @@
-import 'package:akusehatpg/access_api.dart';
-import 'package:flutter/services.dart';
-// import 'package:health_monitor_package/access_api.dart';
-// import 'package:health_monitor_package/health_monitor_exception.dart';
+library akusehatpg;
+
 
 class HealthMonitorService {
-  static const MethodChannel _methodChannel = MethodChannel('health_monitor');
 
   Future<void> startMeasurement(int duration) async {
     // try {
